@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Get All Lists   -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <!-- POSTS -->
+        <TextView
+            android:id="@+id/tvShowPosts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowPosts"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp"
+            android:shadowColor="#939393"/>
+
+        <!-- Comments -->
+        <TextView
+            android:id="@+id/tvShowComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowComments"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+        <!-- Users -->
+        <TextView
+            android:id="@+id/tvShowUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowUsers"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+        <!-- Albums -->
+        <TextView
+            android:id="@+id/tvShowAlbums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowAlbums"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+        <!-- Photos -->
+        <TextView
+            android:id="@+id/tvShowPhotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowPhotos"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+
+        <!-- TODOs -->
+        <TextView
+            android:id="@+id/tvShowTodos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/textview_background"
+            android:padding="20dp"
+            android:text="@string/tvShowTodos"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+        <!-- TODOs List -->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
