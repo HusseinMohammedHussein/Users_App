@@ -1,7 +1,7 @@
-# Users App using Retrofit2 With JSONPlaceHolder site.
+# Users App is fetch Data from JSONPlaceHolder site.
 ### Description:
-   Using Retrofit2 Library for featch data from JSONPlaceHolder site, 
-     JSONPlaceHolder is website provide API link for Access the data it's contains.
+   Using Retrofit2 Library for featch data from JSONPlaceHolder site with Model-View-ViewModel, 
+     JSONPlaceHolder is website provide JSON Data API.
   
   Tring build Apps with **Retrofit2** and **JSON API** more time, because of improve my skills in __Android Development__.    
 
